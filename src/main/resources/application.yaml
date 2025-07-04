@@ -1,0 +1,24 @@
+spring:
+  application.name: Api-Gateway
+
+database:
+  name: api-gateway
+
+gateway:
+  routes:
+    - id: auth-server
+      path: /api/{segment}/auth/{rest}
+      uri: http://localhost:8081
+      enabled: true
+    - id: user-service
+      path: /api/{segment}/users/
+      uri: http://localhost:8082
+      enabled: true
+
+
+
+
+server:
+  port: 8080
+
+#debug: true
