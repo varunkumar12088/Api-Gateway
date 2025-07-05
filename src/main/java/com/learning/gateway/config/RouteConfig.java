@@ -1,6 +1,6 @@
 package com.learning.gateway.config;
 
-import com.learning.gateway.pojo.ServiceRoute;
+import com.learning.gateway.domain.ServiceRoute;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 

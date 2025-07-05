@@ -1,4 +1,4 @@
-package com.learning.gateway.pojo;
+package com.learning.gateway.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

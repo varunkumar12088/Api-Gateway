@@ -1,6 +1,6 @@
 package com.learning.gateway.config;
 
-import com.learning.gateway.pojo.ServiceRoute;
+import com.learning.gateway.domain.ServiceRoute;
 import org.springframework.cloud.gateway.route.RouteLocator;
 import org.springframework.cloud.gateway.route.builder.RouteLocatorBuilder;
 import org.springframework.context.annotation.Bean;
